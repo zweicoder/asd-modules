@@ -1,0 +1,4 @@
+module:
+  script: drone.sh
+  dependencies:
+    - docker

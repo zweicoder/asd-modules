@@ -1,0 +1,5 @@
+module:
+  script: docker-compose.sh
+  # prescript?
+  dependencies:
+    - docker
