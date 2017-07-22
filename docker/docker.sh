@@ -1,4 +1,11 @@
-#!/bin/bash
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if [ -n `which docker` ]; then
+    echo 'Docker is already installed'
+    exit 0
+fi
 
 # Remove old versions of docker
 sudo apt-get remove docker docker-engine
