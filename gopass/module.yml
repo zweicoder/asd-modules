@@ -1,0 +1,5 @@
+module:
+  script: gopass.sh
+  dependencies:
+    - gnupg
+    - git
